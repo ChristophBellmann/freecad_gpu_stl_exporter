@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>FreeCAD-GpuStlExport</name>
+  <description>Experimental FreeCAD workbench for GPU-assisted STL export of supported profile/revolve-style shapes.</description>
+  <version>0.1.0</version>
+  <date>2026-04-30</date>
+  <maintainer email="">Christoph Bellmann</maintainer>
+  <license file="LICENSE">MIT</license>
+  <url type="repository">https://github.com/ChristophBellmann/FreeCAD-GpuStlExport</url>
+  <icon>resources/gpu_stl_export.svg</icon>
+</package>

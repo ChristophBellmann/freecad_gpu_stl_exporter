@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local exporter environment
+GpuStlExport/exporter/.venv/
+GpuStlExport/exporter/.rocm_path.local
+GpuStlExport/exporter/in/
+GpuStlExport/exporter/out/
+
+# FreeCAD/autosave
+*.FCStd1
+*.FCBak
+*.FCStd.lock
+
+# Generated meshes
+*.stl
+*.obj
+*.ply
+*.off
+*.3mf
+
+# Local editor/system files
+.vscode/
+.idea/
+.DS_Store
