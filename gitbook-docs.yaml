@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: "FreeCAD GPU STL Exporter"
+  structure:
+    - type: space
+      key: freecad-gpu-stl-exporter
+      title: "FreeCAD GPU STL Exporter"
+      path: docs
+      default: true
+      content:
+        directory: ./gitbook
