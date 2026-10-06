@@ -10,6 +10,12 @@ FreeCAD must handle arbitrary BRep geometry, so replacing its standard mesher wi
 
 The current implementation is deliberately narrow. It is an engineering experiment in GPU-assisted tessellation and FreeCAD integration, not a claim to be a universal replacement for OCCT meshing.
 
+## Project consolidation
+
+The earlier `freecad_gpu_stl_export` repository contains the standalone command-line exporter that established the PyTorch CPU/CUDA/ROCm meshing backend. The current `freecad_gpu_stl_exporter` repository integrates that backend into a FreeCAD workbench and is the canonical project and documentation location.
+
+The older repository is retained for development history; it should not be presented as a separate portfolio project.
+
 Continue with [Architecture](architecture.md), [GPU Meshing Pipeline](gpu-meshing-pipeline.md), [FreeCAD Integration](freecad-integration.md), [Installation & Usage](installation-and-usage.md), [Supported Geometry & Limits](supported-geometry-and-limits.md), and [Validation & Roadmap](validation-and-roadmap.md).
 
 ---
