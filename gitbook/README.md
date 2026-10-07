@@ -14,7 +14,7 @@ The current implementation is deliberately narrow. It is an engineering experime
 
 The earlier `freecad_gpu_stl_export` repository contains the standalone command-line exporter that established the PyTorch CPU/CUDA/ROCm meshing backend. The current `freecad_gpu_stl_exporter` repository integrates that backend into a FreeCAD workbench and is the canonical project and documentation location.
 
-The older repository is retained for development history; it should not be presented as a separate portfolio project.
+The older `freecad_gpu_stl_export` repository is archived on GitHub and retained for development history. Further changes belong in `freecad_gpu_stl_exporter`; the archived predecessor should not be presented as a separate portfolio project.
 
 Continue with [Architecture](architecture.md), [GPU Meshing Pipeline](gpu-meshing-pipeline.md), [FreeCAD Integration](freecad-integration.md), [Installation & Usage](installation-and-usage.md), [Supported Geometry & Limits](supported-geometry-and-limits.md), and [Validation & Roadmap](validation-and-roadmap.md).
 
