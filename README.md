@@ -1,5 +1,7 @@
 # FreeCAD GPU STL Exporter
 
+**Documentation:** [Manual](https://renewable-energy-design.gitbook.io/renewable-energy-design-docs/uebersicht/freecad-gpu-stl-exporter/) · [All REDesign manuals](https://renewable-energy-design.gitbook.io/renewable-energy-design-docs/) · [redesign.network](https://redesign.network/)
+
 Experimental FreeCAD workbench for exporting supported profile/revolve-style FreeCAD shapes to STL through a PyTorch CUDA/ROCm backend.
 
 This repository does **not** replace FreeCAD's general OCCT mesher. It integrates the existing GPU STL exporter as an optional external backend so it can be tested from the FreeCAD GUI without adding PyTorch as a FreeCAD core dependency.
@@ -152,7 +154,7 @@ The generated STL should be visually compared against FreeCAD's normal STL expor
 
 ## GitBook source and maintenance
 
-The [published project documentation](https://renewable-energy-design.gitbook.io/freecad-gpu-stl-exporter/) is maintained through GitSync
+The [published project documentation](https://renewable-energy-design.gitbook.io/renewable-energy-design-docs/uebersicht/freecad-gpu-stl-exporter/) is maintained through GitSync
 from `ChristophBellmann/freecad_gpu_stl_exporter` on `main`. Page sources live in
 [`gitbook/`](gitbook/README.md), with navigation in
 [`gitbook/SUMMARY.md`](gitbook/SUMMARY.md). `.gitbook.yaml` and
